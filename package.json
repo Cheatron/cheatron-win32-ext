@@ -1,0 +1,53 @@
+{
+  "name": "@cheatron/win32-ext",
+  "version": "1.0.0",
+  "description": "Extended Win32 definitions and constants for the Cheatron ecosystem",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "win32",
+    "ffi",
+    "definitions",
+    "constants",
+    "cheatron",
+    "windows-api"
+  ],
+  "author": "Cheatron",
+  "homepage": "https://github.com/Cheatron/cheatron-native-mock#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cheatron/cheatron-native-mock.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Cheatron/cheatron-native-mock/issues"
+  },
+  "dependencies": {
+    "win32-def": "^26.1.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/bun": "latest",
+    "add": "^2.0.6",
+    "eslint": "^10.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.3.0",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "bun run build",
+    "test": "bun test",
+    "lint": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --cache",
+    "lint:fix": "eslint \"src/**/*.{js,ts,jsx,tsx}\" --fix",
+    "format": "prettier --write \"{src,tests}/**/*.{js,ts,jsx,tsx,css,md,json}\"",
+    "format:check": "prettier --check \"{src,tests}/**/*.{js,ts,jsx,tsx,css,md,json}\""
+  }
+}
