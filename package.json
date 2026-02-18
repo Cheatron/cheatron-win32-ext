@@ -1,6 +1,6 @@
 {
   "name": "@cheatron/win32-ext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Extended Win32 definitions and constants for the Cheatron ecosystem",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -19,13 +19,13 @@
     "windows-api"
   ],
   "author": "Cheatron",
-  "homepage": "https://github.com/Cheatron/cheatron-native-mock#readme",
+  "homepage": "https://github.com/Cheatron/cheatron-win32-ext#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cheatron/cheatron-native-mock.git"
+    "url": "git+https://github.com/Cheatron/cheatron-win32-ext.git"
   },
   "bugs": {
-    "url": "https://github.com/Cheatron/cheatron-native-mock/issues"
+    "url": "https://github.com/Cheatron/cheatron-win32-ext/issues"
   },
   "dependencies": {
     "win32-def": "^26.1.2"
