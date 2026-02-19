@@ -19,3 +19,8 @@ export enum ThreadCreationFlags {
    */
   STACK_SIZE_PARAM_IS_A_RESERVATION = 0x00010000,
 }
+
+/**
+ * The thread is still running.
+ */
+export const STILL_ACTIVE = 259;
