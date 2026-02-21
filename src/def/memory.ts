@@ -33,3 +33,13 @@ export enum MemoryType {
   MAPPED = 0x40000,
   IMAGE = 0x1000000,
 }
+
+/**
+ * Memory free type constants
+ */
+export enum MemoryFreeType {
+  DECOMMIT = 0x4000,
+  RELEASE = 0x8000,
+  COALESCE_PLACEHOLDERS = 0x00000001,
+  PRESERVE_PLACEHOLDER = 0x00000002,
+}
