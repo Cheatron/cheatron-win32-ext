@@ -1,6 +1,6 @@
 {
   "name": "@cheatron/win32-ext",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Extended Win32 definitions and constants for the Cheatron ecosystem",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
