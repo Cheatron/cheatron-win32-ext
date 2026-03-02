@@ -3,3 +3,4 @@ export * from './memory.js';
 export * from './context.js';
 export * from './thread.js';
 export * from './sync.js';
+export * from './libloader.js';
