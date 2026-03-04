@@ -6,3 +6,4 @@ export * from './thread';
 export * from './sync';
 export * from './libloader';
 export * from './toolhelp';
+export * from './window';
