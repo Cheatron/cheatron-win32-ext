@@ -38,3 +38,16 @@ export enum GetWindowCmd {
    */
   ENABLEDPOPUP = 6,
 }
+
+/**
+ * GUITHREADINFO flags
+ * https://learn.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-guithreadinfo
+ */
+export enum GUIThreadInfoFlag {
+  CARETBLINKING = 0x00000001,
+  INMOVESIZE = 0x00000002,
+  INMENUMODE = 0x00000004,
+  SYSTEMMENUMODE = 0x00000008,
+  POPUPMENUMODE = 0x00000010,
+  IS16BITTASK = 0x00000020,
+}
